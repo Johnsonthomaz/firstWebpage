@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  height: 600px;
+  width: 800px;
+  border: 5px solid rgb(178, 105, 247);
+  border-radius: 50px;
+}
+.firstblock {
+  height: 600px;
+  width: 400px;
+  /* border: 5px solid black;     */
+  background-color: rgb(178, 105, 247);
+  border-radius: 50px;
+  border-collapse: collapse;
+  margin-top: -5px;
+}
+.a1 {
+  height: 90px;
+  width: 310px;
+  /* border: 5px solid magenta; */
+  background-color: rgb(178, 105, 247);
+  color: white;
+  display: flex;
+  border-radius: 10px;
+  align-items: center;
+  margin-left: 35px;
+  justify-content: center;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.a2 {
+  height: 200px;
+  width: 200px;
+  /* border: 5px solid magenta; */
+  background-color: rgba(151, 78, 219, 0.868);
+  box-shadow: 0px 10px 30px white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 300px;
+  margin-left: 100px;
+}
+#div1 {
+  height: 50px;
+  font-weight: 60px;
+  font-size: 70px;
+  display: flex;
+  font-family: sans-serif;
+  align-items: center;
+  /* border: 5px solid magenta; */
+  justify-content: center;
+  color: white;
+}
+#div2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(226, 213, 239);
+  margin-top: 80px;
+  margin-left: -60px;
+  /* border: 5px solid magenta; */
+}
+.a3 {
+  height: 100px;
+  width: 350px;
+  /* border: 5px solid magenta; */
+  background-color: rgb(178, 105, 247);
+  display: flex;
+  font-size: 40px;
+  margin-top: 35px;
+  margin-left: 20px;
+  font-family: sans-serif;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.a4 {
+  height: 150px;
+  width: 350px;
+  /* border: 5px solid magenta; */
+  background-color: rgb(178, 105, 247);
+  display: flex;
+  margin-left: 30px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.secondblock {
+  height: 600px;
+  width: 400px;
+  /* border: 5px solid blue; */
+  margin-left: 400px;
+  margin-top: -600px;
+}
+.a5 {
+  height: 90px;
+  width: 325px;
+  /* border: 5px solid magenta; */
+  color: black;
+  display: flex;
+  font-weight: bold;
+  align-items: center;
+  margin-left: 25px;
+  justify-content: left;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.a6 {
+  height: 70px;
+  width: 325px;
+  /* border: 5px solid yellow; */
+  background-color: rgba(216, 180, 180, 0.737);
+  color: red;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+  justify-content: left;
+  font-size: 20px;
+  font-family: sans-serif;
+  padding-left: 10px;
+}
+.a7 {
+  height: 70px;
+  width: 325px;
+  /* border: 5px solid yellow; */
+  background-color: rgba(247, 247, 197, 0.765);
+  color: rgb(248, 248, 14);
+  display: flex;
+  margin-top: 20px;
+  border-radius: 20px;
+  align-items: center;
+  margin-left: 25px;
+  justify-content: left;
+  font-size: 20px;
+  font-family: sans-serif;
+  padding-left: 10px;
+}
+.a8 {
+  height: 70px;
+  width: 325px;
+  /* border: 5px solid yellow; */
+  background-color: rgb(160, 160, 218);
+  color: blue;
+  display: flex;
+  border-radius: 20px;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 25px;
+  justify-content: left;
+  font-size: 20px;
+  font-family: sans-serif;
+  gap: 200px;
+  padding-left: 10px;
+}
+.a9 {
+  height: 70px;
+  width: 325px;
+  /* border: 5px solid yellow; */
+  background-color: rgb(184, 240, 184);
+  color: green;
+  display: flex;
+  border-radius: 20px;
+  align-items: center;
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-left: 25px;
+  justify-content: left;
+  font-size: 20px;
+  font-family: sans-serif;
+  gap: 10px;
+}
+.continue {
+  height: 80px;
+  width: 350px;
+  /* border: 5px solid navy; */
+  margin-top: 35px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(89, 6, 89);
+  border-radius: 100px;
+  color: white;
+  font-size: 30px;
+  font-family: sans-serif;
+}
